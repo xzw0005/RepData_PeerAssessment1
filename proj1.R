@@ -1,3 +1,4 @@
+# Project 1 Rcode
 activity = read.csv("F:\\Coursera\\DataScience_JohnsHopkins\\5_ReproducibleResearch\\proj1\\repdata-data-activity\\activity.csv")
 summary(activity)
 tail(activity)
