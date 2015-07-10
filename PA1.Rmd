@@ -1,11 +1,14 @@
 ---
 title: "RepData_PeerAssessment1"
+author: "xzw0005"
+date: "Friday, July 10, 2015"
+output: html_document
 ---
 
 ## Loading and preprocessing the data
 The data for this assignment can be downloaded from the course web site. First, we are going to load the data in R:
 ```{r loadData}
-activity = read.csv("F:\\Coursera\\DataScience_JohnsHopkins\\5_ReproducibleResearch\\proj1\\repdata-data-activity\\activity.csv")
+activity = read.csv("./activity.csv")
 summary(activity)
 mydata = as.data.frame(activity[complete.cases(activity), ])
 summary(mydata)

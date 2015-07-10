@@ -1,5 +1,6 @@
+setwd("F:\\Coursera\\DataScience_JohnsHopkins\\5_ReproducibleResearch\\proj1\\repdata-data-activity")
 # Project 1 Rcode
-activity = read.csv("F:\\Coursera\\DataScience_JohnsHopkins\\5_ReproducibleResearch\\proj1\\repdata-data-activity\\activity.csv")
+activity = read.csv("./activity.csv")
 summary(activity)
 tail(activity)
 head(mydata)
